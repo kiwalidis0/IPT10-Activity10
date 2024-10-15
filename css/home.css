@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #31363F; /* Light background color */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h5 {
+    color: #EEEEEE; /* Darker text for readability */
+    margin-bottom: 15px; /* Spacing below headings */
+}
+
+h1 {
+    color: #76ABAE; /* Specific color for the main student heading */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Bootstrap link color */
+    padding: 5px 10px; /* Add padding around links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background change on hover */
+}
+
+.btnLogin {
+    background-color: #76ABAE;
+    color:#222831;
+}
+
+a:hover {
+    background-color: #e2e6ea; /* Light gray background on hover */
+    color: #0056b3; /* Darker link color on hover */
+}
+
+.menu-title {
+    margin-top: 20px; /* Additional spacing for the menu */
+    font-weight: bold; /* Bold font for the menu title */
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on small screens */
+    }
+
+    h1, h2, h3, h5 {
+        text-align: center; /* Center headings on small screens */
+    }
+}
